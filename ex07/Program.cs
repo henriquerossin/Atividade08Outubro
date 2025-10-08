@@ -10,7 +10,7 @@ int Termos, Numero1 = 0, Numero2 = 0, NumeroAtual = 1;
 
 Console.WriteLine("Digite a quantidade de termos da sequência de Fibonacci: ");
 
-Termos = int.Parse(Console.ReadLine());
+Termos = int.Parse(Console.ReadLine()!);
 
 if (Termos >= 1)
 {

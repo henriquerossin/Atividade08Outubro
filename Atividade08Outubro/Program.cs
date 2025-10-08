@@ -7,12 +7,12 @@ Tabuada com verificação de entrada
 */
 
 Console.WriteLine("Digite um número entre 1 e 10 para fazer a tabuada");
-int num = int.Parse(Console.ReadLine());
+int num = int.Parse(Console.ReadLine()!);
 
 while (num < 1 || num > 10)
 {
     Console.WriteLine("Número inválido. Digite um número entre 1 e 10:");
-    num = int.Parse(Console.ReadLine());
+    num = int.Parse(Console.ReadLine()!);
 }
 
 for (int i = 1; i<= 10; i++)

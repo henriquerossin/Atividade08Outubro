@@ -12,7 +12,7 @@ int soma = 0;
 do
 {
     Console.WriteLine("Digite um número");
-    num = int.Parse(Console.ReadLine());
+    num = int.Parse(Console.ReadLine()!);
     soma += num;
 } while (num >= 0);
 
