@@ -15,17 +15,17 @@ Console.WriteLine("Digite um número entre 1 e 50: ");
 
 int Tentativa = int.Parse(Console.ReadLine()!);
 
-while (Tentativa != NumeroSecreto)
+do
 {
     if (Tentativa < NumeroSecreto)
     {
         Console.WriteLine("O número é maior! Tente novamente: ");
     }
-    else
+    else if (Tentativa > NumeroSecreto)
     {
         Console.WriteLine("O número é menor! Tente novamente: ");
     }
     Tentativa = int.Parse(Console.ReadLine()!);
-}
+} while (Tentativa != NumeroSecreto);
 
 Console.WriteLine($"Parabéns! Você acertou o número secreto! O número era {NumeroSecreto}");
