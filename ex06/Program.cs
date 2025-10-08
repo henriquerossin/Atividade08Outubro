@@ -6,9 +6,9 @@ Contar números pares e ímpares
 - Ao final, exiba a quantidade de pares e ímpares digitados.
 */
 
+int countPares = 0, countImpares = 0; ;
+
 Console.WriteLine("Digite 10 números: ");
-int countPares = 0;
-int countImpares = 0;
 
 for (int i = 0; i < 10; i++)
 {
