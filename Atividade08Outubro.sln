@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36518.9 d17.14
+VisualStudioVersion = 17.14.36518.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex01", "Atividade08Outubro\ex01.csproj", "{2FF7A399-F282-4F7B-929F-617729A29D8F}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex07", "ex07\ex07.csproj", "{2EEDE2AE-5724-46C3-8479-16A718E5B78B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex08", "ex08\ex08.csproj", "{A89AD064-147F-459E-9B81-A639F5A284B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex09Tarefa", "ex09Tarefa\ex09Tarefa.csproj", "{9E195F01-CBBD-4216-A144-A1F4EEC8D37A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{A89AD064-147F-459E-9B81-A639F5A284B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A89AD064-147F-459E-9B81-A639F5A284B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A89AD064-147F-459E-9B81-A639F5A284B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E195F01-CBBD-4216-A144-A1F4EEC8D37A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E195F01-CBBD-4216-A144-A1F4EEC8D37A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E195F01-CBBD-4216-A144-A1F4EEC8D37A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E195F01-CBBD-4216-A144-A1F4EEC8D37A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
