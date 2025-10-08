@@ -12,7 +12,7 @@ int countImpares = 0;
 
 for (int i = 0; i < 10; i++)
 {
-    Console.Write($"Número {i + 1}: ");
+    Console.Write($"{i + 1}° Número: ");
     int numero = int.Parse(Console.ReadLine()!);
     if (numero % 2 == 0)
     {
