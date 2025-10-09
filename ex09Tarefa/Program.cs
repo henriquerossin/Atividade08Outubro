@@ -6,7 +6,7 @@ Console.Write("Digite um número inteiro positivo para ser fatorado: ");
 
 int N = int.Parse(Console.ReadLine()!);
 
-int fatorial = 1;
+long fatorial = 1;
 
 for (int i = N; i > 1; i--)
 {
